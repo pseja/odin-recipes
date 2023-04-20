@@ -1,0 +1,44 @@
+body {
+    color: #C6C8D1;
+    background-color: #161821;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 900;
+
+    margin-bottom: 12px;
+}
+
+.horizontal-line {
+    border-top: 1px solid #C6C8D1;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+img {
+    height: auto;
+    width: 300px;
+    border: 10px solid #C6C8D1;
+    border-radius: 50%;
+}
+
+img:hover {
+    transform: rotate(10deg);
+}
+
+.text {
+    font-size: 20px;
+}
+
