@@ -32,6 +32,7 @@ img {
     width: 300px;
     border: 10px solid #C6C8D1;
     border-radius: 50%;
+    transition: .3s ease-in-out;
 }
 
 img:hover {
